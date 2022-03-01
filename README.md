@@ -1,6 +1,6 @@
-## Log in page or Sign in in
+## Shazam Bootstrap Clone
 
-[Test this app yourself](https://maykaltenev.github.io/shazam-boostrap-clone/)
+[Test this app yourself](https://maykaltenev.github.io/shazam-bootstrap-clone/)
 
 ---
 
@@ -8,7 +8,8 @@
 
 ### About Project
 
-This is a clone of the Shazam Webpage created with the Bootstrap framework. The page contain only the navbar, the top main part and the footer of the page.
+This is a clone of the Shazam Web page created with the Bootstrap framework. The page contain only the navbar, the top main part and the footer of the page. 
+This clone of the Shazam Web page is only for study purposes in order to practice on the Bootstrap framework.
 <br>
 
 ##### Developed With
