@@ -8,7 +8,6 @@ body {
 .rounded {
   animation: breathing;
   animation: breathing 1s ease-out infinite;
-  border: 1px red solid;
 }
 @-webkit-keyframes breathing {
   0% {
