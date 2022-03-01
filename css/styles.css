@@ -3,11 +3,12 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
+  background-color: rgba(0, 85, 255, 0.709);
 }
 
 .rounded {
   animation: breathing;
-  animation: breathing 1s ease-out infinite;
+  animation: breathing 6s ease-in-out infinite;
 }
 @-webkit-keyframes breathing {
   0% {
