@@ -8,7 +8,7 @@
 
 ### About Project
 
-This is a clone of the Shazam Webpage created with the Bootstrap framework. The page contain only the navbar, the top main part and the footer of the page.
+This is a clone of the Shazam Web page created with the Bootstrap framework. The page contain only the navbar, the top main part and the footer of the page.
 <br>
 
 ##### Developed With
