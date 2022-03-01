@@ -1,6 +1,6 @@
 ## Shazam Bootstrap Clone
 
-[Test this app yourself](https://maykaltenev.github.io/shazam-boostrap-clone/)
+[Test this app yourself](https://maykaltenev.github.io/shazam-bootstrap-clone/)
 
 ---
 
