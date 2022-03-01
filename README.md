@@ -4,7 +4,7 @@
 
 ---
 
-![bootstrap-page](./images/shazam-bootstrap.png.png)
+![bootstrap-page](./images/shazam-bootstrap.png)
 
 ### About Project
 
