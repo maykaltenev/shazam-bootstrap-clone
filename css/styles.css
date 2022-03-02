@@ -5,7 +5,6 @@ body {
   height: 100vh;
   background-color: rgba(0, 85, 255, 0.709);
 }
-
 .rounded {
   animation: breathing;
   animation: breathing 6s ease-in-out infinite;

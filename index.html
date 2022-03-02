@@ -16,9 +16,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- header with navbar -->
     <header>
+<!-- container in the nav-->
       <div class="container-fluid">
+        <!-- navbar extended when width bigger than 1200px color dark and lightblue background -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+          <!-- container for the logo and the hamburger menu when the screen is smaller collapsing menu -->
           <div class="container-fluid">
             <a class="navbar-brand" href="#"
               ><img src="./images/shazam_logo.svg.png" alt="" width="100px"
@@ -32,6 +36,7 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
+            <!-- hamburger menu -->
               <span class="navbar-toggler-icon"></span>
             </button>
             <div
@@ -52,7 +57,7 @@
                   <a class="nav-link active" href="#">CHARTS</a>
                 </li>
               </ul>
-              <div class="d-flex collapse  input-group-m">
+              <div class="d-flex collapse navbar-collapse  input-group-m">
                 <input
                   type="text"
                   class="form-control"
@@ -61,17 +66,17 @@
                   aria-describedby="button-addon2"
                 />
                 <button
-                  class="btn btn-outline-info text-white"
+                  class="collapse navbar-collapse btn btn-outline-info text-white"
                   type="button"
                   id="button-addon2"
                 >
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
               </div>
-              <button type="button" class="btn btn-primary">
+              <button type="button" class="btn btn-primary collapse navbar-collapse">
                 Default button
               </button>
-              <button type="button" class="btn btn-primary">CONNECT</button>
+              <button type="button" class="btn btn-primary collapse navbar-collapse">CONNECT</button>
             </div>
           </div>
         </nav>
@@ -79,12 +84,26 @@
     </header>
    
     <main
-      class="container bg-primary "
-      style="height: 75vh; border: 1px red solid"
+      class="container  d-flex flex-column justify-content-evenly "
+      style="height: 200vh; border: 1px red solid"
     >
       <div
         style="height: 75vh; border: 1px red solid; color: white"
-        class="w-50 container d-flex flex-column justify-content-evenly align-items-center"
+        class="w-100 container bg-primary d-flex flex-column justify-content-evenly align-items-center"
+      >
+        <div class="row">
+          <p class="fs-1 text-center fw-bold font-white">
+            Shazam identifies songs playing around you
+          </p>
+          <p class="breath fs-4 text-center fw-bold">Click to Shazam</p>
+        </div>
+          <img class="rounded" width="200px" height="200px" src="./images/shazam-circle-logo.png"
+          alt="" />
+        </div>
+      </div>
+      <div
+        style="height: 50vh; border: 1px red solid; color: white"
+        class="w-75 bg-secondary container d-flex flex-column justify-content-evenly align-items-center"
       >
         <div class="row">
           <p class="fs-1 text-center fw-bold font-white">
