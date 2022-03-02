@@ -19,11 +19,11 @@
     <!-- header with navbar -->
     <header>
 <!-- container in the nav-->
-      <div class="container-fluid">
+      <div class="container">
         <!-- navbar extended when width bigger than 1200px color dark and lightblue background -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-info">
           <!-- container for the logo and the hamburger menu when the screen is smaller collapsing menu -->
-          <div class="container-fluid">
+          <div class="container">
             <a class="navbar-brand" href="#"
               ><img src="./images/shazam_logo.svg.png" alt="" width="100px"
             /></a>
@@ -40,7 +40,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div
-              class="collapse navbar-collapse d-flex justify-content-evenly"
+              class="collapse navbar-collapse d-flex justify-content-around"
               id="navbarColor01">
               <ul
                 id="ul-navUL"
@@ -55,25 +55,26 @@
                   <a class="nav-link active" href="#">CHARTS</a>
                 </li>
               </ul>
-              <div class="d-flex collapse navbar-collapse  input-group-m">
+              <!--  -->
+              <div class="search d-flex text-white collapse navbar-collapse input-group-s">
                 <input
                   type="text"
-                  class="form-control"
+                  class="search-bar form-control "
                   placeholder="Search your music"
                   aria-label="Recipient's username"
                   aria-describedby="button-addon2"/>
                 <button
-                  class="collapse navbar-collapse btn btn-outline-info text-white"
+                  class="collapse navbar-collapse btn btn-outline-info "
                   type="button"
                   id="button-addon2"
                 >
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
               </div>
-              <button type="button" class="btn btn-primary collapse navbar-collapse">
+              <button type="button" style="width: 4rem; height: 2rem;"class="default-btn btn btn-primary collapse navbar-collapse ">
                 Default
               </button>
-              <button type="button" class="btn btn-primary collapse navbar-collapse">CONNECT</button>
+              <button type="button" style="width: 4rem; height: 2rem;" class="btn btn-primary collapse navbar-collapse">CONNECT</button>
             </div>
           </div>
         </nav>
